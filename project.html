@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Gen Packers & Movers</title>
+    <link rel="stylesheet" href="project.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+<link rel="manifest" href="./manifest.json">
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="icon" type="image/jpg" href="./images/logo.png" />
+
+<meta name="theme-color" content="#ddd0d093" />
+<meta name="description" content="Shifters application" />
+
+<!-- iOS -->
+<link rel="apple-touch-icon" href="./images/ip p3.jpg" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-status-bar-style" content="black" />
+<meta name="mobile-web-app-title" content="Next_Gen_Shifters" />
+
+
+    <script src="https://kit.fontawesome.com/8c0ae91c26.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+
+    
+
+
+    <section class="header" id="head">
+        <nav>
+            <img class="img" src="images/logo.png">
+            <div class="links" id="Links">
+                <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#head">HOME</a></li>
+                    <li><a href="#ourMoto">OUR MOTO</a></li>
+                    <li><a href="">QUERIES</a></li>
+                    <li><a href="#r">REVIEWS</a></li>
+                    <li><a href="#c">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text">
+            <h1>Next Gen Packers & Movers</h1>
+            <h3>cause every delivery matters </h3>
+        </div>
+    </section>
+
+
+
+    <h1 id="ourMoto">Our Moto</h1>
+    <section class="review">
+        <div class="row">
+            <div class="col">
+                <h2>India's newest and smartest.</h2>
+                <p>Next Gen packers and movers are the newest packers and movers in the
+                    game .We operate pan India and cater to international deliveries as well.
+                    We hope to create a mark in the industry with the use to new technology to provide
+                    best services to our costumers.
+                </p>
+            </div>
+            <div class="col">
+                <img src="images/about us.png" alt="">
+            </div>
+        </div>    
+
+    </section>
+    
+    <h1 id="r">What Our Costumers say</h1>
+    <section class="review">
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/women2.jpg">
+                <div>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Similique blanditiis sed in fuga optio iste, tempore velit
+                        harum eligendi maxime eaque architecto, quam expedita! Iste aliquam commodi totam
+                        dolorum est!</P>
+                    <h4>Pam Beasly</h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/man.jpg">
+                <div>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Similique blanditiis sed in fuga optio iste, tempore velit
+                        harum eligendi maxime eaque architecto, quam expedita! Iste aliquam commodi totam
+                        dolorum est!</P>
+                    <h4>Jim Halpert</h4>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <h1 class="con" id="c">Contact Us For Our Services</h1>
+   <a href="form.html" class="login">LOGIN IN</a>
+
+   <section class="footer">
+       <h4>About us</h4>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Laborum facilis totam ullam quaerat dolores aperiam, illum 
+        commodi sint earum adipisci sapiente provident soluta. <br> Non,
+         consequuntur? Nisi cumque earum eos facilis.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+   </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("Links");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+        window.addEventListener('load', e => {
+  
+  registerSW(); 
+});
+
+async function registerSW() { 
+  if ('serviceWorker' in navigator) { 
+    try {
+      await navigator.serviceWorker.register('./sw.js'); 
+    } catch (e) {
+      alert('ServiceWorker registration failed. Sorry about that.'); 
+    }
+  } else {
+    document.querySelector('.alert').removeAttribute('hidden'); 
+  }
+}
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 600,
+	speedAsDuration: true
+});
+    </script>
+    
+
+</body>
+
+</html>

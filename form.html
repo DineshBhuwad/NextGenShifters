@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation Page</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="center">
+        <h1>Confirm Pickup</h1>
+        <form action="connection.php" method="post">
+            <div class="txt_field">
+                <input type="text" required name="name">
+                <span></span>
+                <label>Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="email" required name="emaill">
+                <span></span>
+                <label>Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required name="date" >
+                <span></span>
+                <label>Date of Pickup</label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required name="padd">
+                <span></span>
+                <label>Pick up Location </label>
+            </div>
+            <div class="txt_field">
+                <input type="text" required name="dadd">
+                <span></span>
+                <label>Drop Location </label>
+            </div>
+            <div class="txt_field">
+                <input type="number" required name="number">
+                <span></span>
+                <label>Contact No.</label>
+            </div>
+            <input type="radio" id="type1" name="type" value="Within City">
+            <label for="type1">Within City</label><br>
+
+            <input type="radio" id="type2" name="type" value="Within State">
+            <label for="type2">Within State</label><br>
+
+            <input type="radio" id="type3" name="type" value="Inter-State">
+            <label for="type3">Inter-State</label><br>
+
+            <div class="txt_field">
+                <input type="submit" value="Confirm " >
+            </div>
+        </form>
+    </div>
+
+    
+    
+</body>
+</html>

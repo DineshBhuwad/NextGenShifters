@@ -1,0 +1,21 @@
+{
+    "name": "Next_Gen_Shifters",
+    "short_name": "Next_gen_Shifter",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ddd0d093",
+    "description": "shifters application",
+    "theme_color": "#ddd0d093",
+    "icons": [
+      {
+        "src": "./images/logo.png",
+        "sizes": "305x115",
+        "type": "image/png"
+      },
+  {
+        "src": "./images/ip p3.png",
+        "sizes": "4032x2973",
+        "type": "image/png"
+      }
+    ]
+  }
