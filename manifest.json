@@ -13,8 +13,8 @@
         "type": "image/png"
       },
   {
-        "src": "./images/man.jpg",
-        "sizes": "5430x3620",
+        "src": "./images/square.jpg",
+        "sizes": "723x723",
         "type": "image/png"
       }
     ]
