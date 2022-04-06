@@ -1,7 +1,7 @@
 const cacheName = 'pwa-conf-v1';
 const staticAssets = [
   './',
-  './project.html',
+  './index.html',
   './project.js',
   './project.css'
 ];
